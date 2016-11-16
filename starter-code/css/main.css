@@ -20,6 +20,10 @@ body {
   margin: 0;
 }
 
+main {
+  overflow: hidden;
+}
+
 .button {
     background-color: #1c5380;
 }
@@ -29,11 +33,12 @@ body {
 }
 
 .content-container {
-   background-image: url(images/frame.png);
+  background-image: url("../images/frame.png");
 }
 
 .container {
-  float: right;
+  float: left;
+  width: 400px;
 }
 
 .subheading {
@@ -61,8 +66,13 @@ body {
   font-weight: bold;
   text-align: center;
   padding: 7px;
+  float: left;
 }
 
 .copyright {
   color: grey;
+  padding-top: 7px;
+  text-align: center;
+  float: right;
+  padding-right: 50px;
 }
